@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pharmeasy/screens/login_screen.dart';
+import 'package:pharmeasy/screens/register_screen.dart';
 import 'package:pharmeasy/themes/colors.dart';
 import 'package:pharmeasy/themes/fonts.dart';
 import 'package:pharmeasy/widgets/custom_button.dart';
@@ -26,7 +26,6 @@ class _LandingScreenState extends State<LandingScreen> {
               'assets/images/logos/pharmeasy-logo.png',
               height: height * 0.42,
             ),
-            SizedBox(height: 12),
             Text(
               'PharmEasy',
               style: xtraLargeText,
@@ -47,31 +46,18 @@ class _LandingScreenState extends State<LandingScreen> {
               height: 36,
             ),
             SizedBox(
-              height: height * 0.075,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  CustomButton(
-                    title: 'Log In',
-                    buttonColor: primary,
-                    textColor: Colors.white,
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const LoginScreen()),
-                      );
-                    },
-                  ),
-                  SizedBox(
-                    width: 25,
-                  ),
-                  CustomButton(
-                      title: 'Register',
-                      buttonColor: Colors.white,
-                      textColor: Colors.black,
-                      onPressed: () {})
-                ],
+              width: width * 0.5,
+              child: CustomButton(
+                title: 'Get Started',
+                buttonColor: primary,
+                textColor: Colors.white,
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const RegisterScreen()),
+                  );
+                },
               ),
             )
           ],

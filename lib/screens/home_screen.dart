@@ -25,6 +25,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  final user = FirebaseAuth.instance.currentUser!;
+
   int _selectedIndex = 0;
 
   List categoriesList = [
@@ -61,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ]),
                 Padding(
                   padding: const EdgeInsets.symmetric(vertical: 25.0),
-                  child: ControlledCarousel(),
+                  child: ManuallyControlledSlider(),
                 ),
                 Text(
                   'Your Address',

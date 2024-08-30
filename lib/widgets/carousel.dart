@@ -18,15 +18,15 @@ final List<Widget> imageSliders = imgList
         ))
     .toList();
 
-class ControlledCarousel extends StatefulWidget {
+class ManuallyControlledSlider extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return _ControlledCarouselState();
+    return _ManuallyControlledSliderState();
   }
 }
 
-class _ControlledCarouselState extends State<ControlledCarousel> {
-  final CarouselController _controller = CarouselController();
+class _ManuallyControlledSliderState extends State<ManuallyControlledSlider> {
+  final CarouselSliderController _controller = CarouselSliderController();
 
   @override
   void initState() {
