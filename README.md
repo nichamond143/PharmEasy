@@ -1,3 +1,6 @@
+# PharmEasy
+A mockup telepharmacy application
+
 # pharmeasy
 
 A new Flutter project.
