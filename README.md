@@ -1,15 +1,47 @@
 # PharmEasy
-A mockup telepharmacy application
+This project is a mock telepharmacy application designed to offer digital medical consultations and medication delivery, targeting individuals who lack transportation, live in remote areas, or face difficulties visiting pharmacies due to long wait times or health issues. The app was developed using Flutter for mobile development and Firebase for the backend.
 
-## Getting Started
+## Features
+Since this project is not yet complete, its current features include:
+- **Registration**: Sign up with email and password
+- **Login**: Login with email and password
+- **App Homepage**: The homepage contains user mock address, promotional banners, and mock medication categories and catalog
+- **Medication Details**: Shows information about selected medication
+- **Add to Cart**: Allows users to add specific medications to their cart.
+- **Shopping Cart**: Display medication selected and calculates the total price.
 
-This project is a starting point for a Flutter application.
+## UI 
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+  <div style="flex: 1 1 200px; text-align: center;">
+    <img src="assets/images/examples/landing-screen.png" alt="landing screen" style="width: 100%; max-width: 200px;">
+  </div>
+  
+  <div style="flex: 1 1 200px; text-align: center;">
+    <img src="assets/images/examples/login-screen.png" alt="login screen" style="width: 100%; max-width: 200px;">
+  </div>
+  
+  <div style="flex: 1 1 200px; text-align: center;">
+    <img src="assets/images/examples/reg-screen.png" alt="register screen" style="width: 100%; max-width: 200px;">
+  </div>
+  
+  <div style="flex: 1 1 200px; text-align: center;">
+    <img src="assets/images/examples/verify-screen.png" alt="verify screen" style="width: 100%; max-width: 200px;">
+  </div>
+  
+  <div style="flex: 1 1 200px; text-align: center;">
+    <img src="assets/images/examples/home-screen-1.png" alt="home screen 1" style="width: 100%; max-width: 200px;">
+  </div>
+  
+  <div style="flex: 1 1 200px; text-align: center;">
+    <img src="assets/images/examples/home-screen-2.png" alt="home screen 2" style="width: 100%; max-width: 200px;">
+  </div>
+  
+  <div style="flex: 1 1 200px; text-align: center;">
+    <img src="assets/images/examples/med-details-screen.png" alt="med details screen" style="width: 100%; max-width: 200px;">
+  </div>
+  
+  <div style="flex: 1 1 200px; text-align: center;">
+    <img src="assets/images/examples/cart-screen.png" alt="cart screen" style="width: 100%; max-width: 200px;">
+  </div>
+</div>
