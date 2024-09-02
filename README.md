@@ -11,37 +11,7 @@ Since this project is not yet complete, its current features include:
 - **Shopping Cart**: Display medication selected and calculates the total price.
 
 ## UI 
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-  <div style="flex: 1 1 200px; text-align: center;">
-    <img src="assets/images/examples/landing-screen.png" alt="landing screen" style="width: 100%; max-width: 200px;">
-  </div>
-  
-  <div style="flex: 1 1 200px; text-align: center;">
-    <img src="assets/images/examples/login-screen.png" alt="login screen" style="width: 100%; max-width: 200px;">
-  </div>
-  
-  <div style="flex: 1 1 200px; text-align: center;">
-    <img src="assets/images/examples/reg-screen.png" alt="register screen" style="width: 100%; max-width: 200px;">
-  </div>
-  
-  <div style="flex: 1 1 200px; text-align: center;">
-    <img src="assets/images/examples/verify-screen.png" alt="verify screen" style="width: 100%; max-width: 200px;">
-  </div>
-  
-  <div style="flex: 1 1 200px; text-align: center;">
-    <img src="assets/images/examples/home-screen-1.png" alt="home screen 1" style="width: 100%; max-width: 200px;">
-  </div>
-  
-  <div style="flex: 1 1 200px; text-align: center;">
-    <img src="assets/images/examples/home-screen-2.png" alt="home screen 2" style="width: 100%; max-width: 200px;">
-  </div>
-  
-  <div style="flex: 1 1 200px; text-align: center;">
-    <img src="assets/images/examples/med-details-screen.png" alt="med details screen" style="width: 100%; max-width: 200px;">
-  </div>
-  
-  <div style="flex: 1 1 200px; text-align: center;">
-    <img src="assets/images/examples/cart-screen.png" alt="cart screen" style="width: 100%; max-width: 200px;">
-  </div>
-</div>
+| ![landing screen](assets/images/examples/landing-screen.png) | ![login screen](assets/images/examples/login-screen.png) | ![register screen](assets/images/examples/reg-screen.png) |
+| :-----------------------------------------------------------: | :-------------------------------------------------------: | :--------------------------------------------------------: |
+| ![verify screen](assets/images/examples/verify-screen.png)   | ![home screen 1](assets/images/examples/home-screen-1.png) | ![home screen 2](assets/images/examples/home-screen-2.png) |
+| ![med details screen](assets/images/examples/med-details-screen.png) | ![cart screen](assets/images/examples/cart-screen.png)   |                                                            |
