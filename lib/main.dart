@@ -4,17 +4,15 @@ import 'package:pharmeasy/providers/sign_in.dart';
 import 'package:pharmeasy/widgets/authenticator.dart';
 import 'package:provider/provider.dart';
 import 'models/shop.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load(fileName: ".env");
   await Firebase.initializeApp(
-      options: FirebaseOptions(
-          apiKey: "AIzaSyDRmq6yx6i03J6n8Bfr0B8Biwvp6dtyXac",
-          authDomain: "pharmeasy-da37c.firebaseapp.com",
-          projectId: "pharmeasy-da37c",
-          storageBucket: "pharmeasy-da37c.appspot.com",
-          messagingSenderId: "918728843554",
-          appId: "1:918728843554:android:b5af653efae1878a24857b"));
+    options: DefaultFirebaseOptions.currentPlatform,
+    );
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(create: (_) => Shop()),
