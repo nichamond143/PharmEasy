@@ -11,7 +11,6 @@ Since this project is not yet complete, its current features include:
 - **Shopping Cart**: Display medication selected and calculates the total price.
 
 ## UI 
-| ![landing screen](assets/images/examples/landing-screen.png) | ![login screen](assets/images/examples/login-screen.png) | ![register screen](assets/images/examples/reg-screen.png) |
-| :-----------------------------------------------------------: | :-------------------------------------------------------: | :--------------------------------------------------------: |
-| ![verify screen](assets/images/examples/verify-screen.png)   | ![home screen 1](assets/images/examples/home-screen-1.png) | ![home screen 2](assets/images/examples/home-screen-2.png) |
-| ![med details screen](assets/images/examples/med-details-screen.png) | ![cart screen](assets/images/examples/cart-screen.png)   |                                                            |
+| ![landing screen](assets/images/examples/landing-screen.png) | ![login screen](assets/images/examples/login-screen.png) | ![register screen](assets/images/examples/reg-screen.png) | ![verify screen](assets/images/examples/verify-screen.png)   |
+| :-----------------------------------------------------------: | :-------------------------------------------------------: | :--------------------------------------------------------: | :--------------------------------------------------------: |
+|  ![home screen 1](assets/images/examples/home-screen-1.png) | ![home screen 2](assets/images/examples/home-screen-2.png) | ![med details screen](assets/images/examples/med-details-screen.png) | ![cart screen](assets/images/examples/cart-screen.png)   |
